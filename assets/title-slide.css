@@ -1,0 +1,42 @@
+/* Title slide layout */
+.title-slide {
+  background-image: url("../img/Rlogo_fbb_cut_worm.png");
+  background-repeat: no-repeat;
+  background-position: 50% 3%;
+  background-size: auto 192px;
+  background-color: #f5f3e7;
+/*  background-color: #f2f1f6; */
+}
+
+.title-slide h1 {
+  margin-top: 50px;
+  font-size: 52px;
+  color: #22314e;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.title-slide h2 {
+  margin-top: 10px;
+  font-size: 28px;
+  color: #3c648e;
+  line-height: 1.2em;
+  text-align: center;
+/*  border-bottom: 5px solid #1a467b; */
+  text-decoration: underline; 
+}
+
+.title-slide h3 {
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: -200px;
+  margin-top: 200px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  color: #22314e;
+  text-align: center !important;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}

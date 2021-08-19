@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro@1&display=swap');
+
+/* some colors and text transformations */
+.purple{ color: #c077af; }
+.red { color: #ef342a; }
+.orange { color: #f57125; }
+.blue { color: #22b6ed; }
+.green { color: #1fb27f; }
+.yellow { color: #faca07; }
+.brown {color: #a84d18; }
+.gray {color: #525252; }
+
+.rotate-45 {transform: rotate(45deg); }
+.large { font-size: 120%; }
+.small { font-size: 80%; }
+
+.center {text-align: center; }
+
+
+/* main text fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--cloud-burst);
+}
+h1, h2, h3 {
+  font-family: 'Noto Serif', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.remark-slide-content h1 { font-size: 42px; padding-top: 10px}
+.remark-slide-content h2 { font-size: 28px; }
+.remark-slide-content h3 { font-size: 24px; }
+
+a, a > code {
+  text-decoration: underline;
+  color: var(--denim);
+}
+
+
+/* Code text styling */
+.remark-code, .remark-inline-code { font-family: 'Source Code Pro', monospace; }
+
+.remark-code, .remark-code-line { 
+  font-family: 'Source Code Pro', monospace; 
+  font-size: 80%; 
+}
+
+.remark-code-line-highlighted {
+  background-color: var(--sandwisp);
+}
+
+
+.footnote {
+  font-family: 'Philosopher', sans-serif; 
+  font-size: 60%; 
+}

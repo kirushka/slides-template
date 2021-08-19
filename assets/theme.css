@@ -1,0 +1,149 @@
+/* colour scheme */
+:root {
+/* CSS HEX */
+--cloud-burst: #22314eff;
+--chambray: #3c648eff;
+--tower-gray: #afc5c4ff; 
+--ecru-white: #f5f3e7ff;
+--denim: #1484b3ff;
+--sandwisp: #f4e799ff;
+
+--cadillac: #b74f6fff;
+--pastel-pink: #ffc6d9ff;
+--spring-wood: #fcfaf9ff;
+--paradiso: #246A73ff;
+}
+
+
+
+
+.remark-slide-content {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: table-cell;
+  font-size: 32px;
+  padding: 0px 30px;
+}
+
+
+.remark-slide-content p, ul, ol, li {
+  font-size: 1.6rem;
+}
+
+ul li::marker {
+  color: red;
+  font-size: 1.2em;
+}
+
+
+
+.remark-code {
+  font-size: 1.25em;
+}
+
+code {
+  background: var(--ecru-white);
+  border-radius: 5px;
+}
+
+
+table {
+  font-size: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* two equal columns */
+.pull-left {
+  float: left;
+  width: 49%;
+}
+.pull-right {
+  float: right;
+  width: 49%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+
+
+
+/* class inverse */
+.inverse {
+  background: var(--cloud-burst);
+  color: var(--tower-gray);
+}
+
+.inverse a {
+  color: var(--ecru-white);
+}
+
+
+
+
+/* Two-column layout */
+.left-column {
+  font-size: 50%;
+  color: var(--chambray);
+  width: 28%;
+  height: 80%;
+  float: left;
+  padding-top: 10px;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+    color: var(--cloud-burst);
+  }
+  
+.right-column {
+  width: 70%;
+  float: right;
+  padding-top: 10px;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 10px;
+}
+
+
+blockquote {
+	border-left: solid 5px var(--sandwisp);
+	font-style: italic;
+	background-color: var(--ecru-white);
+	padding: 1em;
+	color: var(--denim);
+}
+
+
+
+
+/* slide number */
+.remark-slide-number {
+  font-size: 20pt;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  color: var(--cloud-burst); 
+  opacity: 0.9; 
+}
+
+.inverse .remark-slide-number {
+  color: var(--tower-gray); 
+}
+
+
+/* prevent code text overflowing the slide */
+.remark-code-line {
+	white-space: pre-wrap;
+	padding-left: 1.85em;
+	text-indent: -1.85em;
+}
+
+/* flipbook options */
+@media print {
+  .has-continuation {
+    display: block;
+  }
+}
